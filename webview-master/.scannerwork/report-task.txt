@@ -1,0 +1,6 @@
+projectKey=gpi5
+serverUrl=http://localhost:9000
+serverVersion=7.8.0.26217
+dashboardUrl=http://localhost:9000/dashboard?id=gpi5
+ceTaskId=AYDgikLwyqM9W35c7RQV
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYDgikLwyqM9W35c7RQV
