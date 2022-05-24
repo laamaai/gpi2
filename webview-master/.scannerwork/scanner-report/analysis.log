@@ -16,16 +16,16 @@ Environment variables:
   - PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
   - PWD=/home/alumno/Escritorio/gpi2/webview-master
   - QT_ACCESSIBILITY=1
-  - SESSION_MANAGER=local/eim-alu-69068:@/tmp/.ICE-unix/629,unix/eim-alu-69068:/tmp/.ICE-unix/629
+  - SESSION_MANAGER=local/eim-alu-69068:@/tmp/.ICE-unix/731,unix/eim-alu-69068:/tmp/.ICE-unix/731
   - SHELL=/bin/bash
-  - SHLVL=1
-  - SSH_AGENT_PID=686
-  - SSH_AUTH_SOCK=/tmp/ssh-63cHtrDfBgLZ/agent.629
+  - SHLVL=2
+  - SSH_AGENT_PID=789
+  - SSH_AUTH_SOCK=/tmp/ssh-XEl1j1fp5wUG/agent.731
   - TERM=xterm-256color
   - UID=1001
   - USER=alumno
   - VTE_VERSION=6003
-  - WINDOWID=48234499
+  - WINDOWID=69206019
   - XDG_CONFIG_DIRS=/etc/xdg
   - XDG_CURRENT_DESKTOP=XFCE
   - XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share
@@ -85,7 +85,7 @@ System properties:
   - sun.cpu.endian=little
   - sun.cpu.isalist=
   - sun.io.unicode.encoding=UnicodeLittle
-  - sun.java.command=org.sonarsource.scanner.cli.Main -Dsonar.projectKey=gpi6 -Dsonar.sources=. -Dsonar.host.url=http://localhost:9000 -Dsonar.java.binaries=gradle -X
+  - sun.java.command=org.sonarsource.scanner.cli.Main -Dsonar.projectKey=webview -Dsonar.sources=. -Dsonar.host.url=http://localhost:9000 -Dsonar.java.binaries=gradle -X
   - sun.java.launcher=SUN_STANDARD
   - sun.jnu.encoding=UTF-8
   - sun.management.compiler=HotSpot 64-Bit Tiered Compilers
@@ -120,13 +120,13 @@ SonarQube plugins:
   - SonarVB 7.14.0.8411 (vbnet)
 Global server settings:
   - sonar.core.id=BF41A1F2-AYDdE0eCqYyc8vp6aqPW
-  - sonar.core.startTime=2022-05-23T17:00:54+0200
+  - sonar.core.startTime=2022-05-24T18:42:54+0200
 Project server settings:
 Project scanner properties:
   - sonar.host.url=http://localhost:9000
   - sonar.java.binaries=gradle
   - sonar.projectBaseDir=/home/alumno/Escritorio/gpi2/webview-master
-  - sonar.projectKey=gpi6
+  - sonar.projectKey=webview
   - sonar.scanner.app=ScannerCli
   - sonar.scanner.appVersion=3.3.0.1492
   - sonar.sourceEncoding=UTF-8

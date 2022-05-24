@@ -154,3 +154,57 @@ INT trapped.  Shutting down.
 2022.05.23 17:45:50 INFO  app[][o.s.a.SchedulerImpl] Process[web] is stopped
 2022.05.23 17:45:50 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
 <-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2022.05.24 18:27:58 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /home/alumno/Escritorio/gpi2/sonarqube-7.8/temp
+2022.05.24 18:27:58 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2022.05.24 18:27:58 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [/home/alumno/Escritorio/gpi2/sonarqube-7.8/elasticsearch]: /home/alumno/Escritorio/gpi2/sonarqube-7.8/elasticsearch/bin/elasticsearch
+2022.05.24 18:27:59 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+2022.05.24 18:27:59 INFO  app[][o.e.p.PluginsService] no modules loaded
+2022.05.24 18:27:59 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2022.05.24 18:28:14 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2022.05.24 18:28:14 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [/home/alumno/Escritorio/gpi2/sonarqube-7.8]: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/home/alumno/Escritorio/gpi2/sonarqube-7.8/temp --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*:/home/alumno/Escritorio/gpi2/sonarqube-7.8/lib/jdbc/h2/h2-1.3.176.jar org.sonar.server.app.WebServer /home/alumno/Escritorio/gpi2/sonarqube-7.8/temp/sq-process10814472387257126224properties
+2022.05.24 18:28:42 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2022.05.24 18:28:42 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='ce', ipcIndex=3, logFilenamePrefix=ce]] from [/home/alumno/Escritorio/gpi2/sonarqube-7.8]: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/home/alumno/Escritorio/gpi2/sonarqube-7.8/temp --add-opens=java.base/java.util=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*:/home/alumno/Escritorio/gpi2/sonarqube-7.8/lib/jdbc/h2/h2-1.3.176.jar org.sonar.ce.app.CeServer /home/alumno/Escritorio/gpi2/sonarqube-7.8/temp/sq-process11854143755930930512properties
+2022.05.24 18:28:51 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2022.05.24 18:28:51 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
+INT trapped.  Shutting down.
+2022.05.24 18:42:28 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [ce]: 130
+2022.05.24 18:42:28 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is stopped
+2022.05.24 18:42:28 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [es]: 130
+2022.05.24 18:42:28 INFO  app[][o.s.a.SchedulerImpl] Process[es] is stopped
+2022.05.24 18:42:28 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [web]: 130
+2022.05.24 18:42:28 INFO  app[][o.s.a.SchedulerImpl] Process[web] is stopped
+2022.05.24 18:42:28 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+<-- Wrapper Stopped
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2022.05.24 18:42:32 INFO  app[][o.s.a.AppFileSystem] Cleaning or creating temp directory /home/alumno/Escritorio/gpi2/sonarqube-7.8/temp
+2022.05.24 18:42:32 INFO  app[][o.s.a.es.EsSettings] Elasticsearch listening on /127.0.0.1:9001
+2022.05.24 18:42:32 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='es', ipcIndex=1, logFilenamePrefix=es]] from [/home/alumno/Escritorio/gpi2/sonarqube-7.8/elasticsearch]: /home/alumno/Escritorio/gpi2/sonarqube-7.8/elasticsearch/bin/elasticsearch
+2022.05.24 18:42:32 INFO  app[][o.s.a.SchedulerImpl] Waiting for Elasticsearch to be up and running
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+2022.05.24 18:42:32 INFO  app[][o.e.p.PluginsService] no modules loaded
+2022.05.24 18:42:32 INFO  app[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2022.05.24 18:42:46 INFO  app[][o.s.a.SchedulerImpl] Process[es] is up
+2022.05.24 18:42:46 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='web', ipcIndex=2, logFilenamePrefix=web]] from [/home/alumno/Escritorio/gpi2/sonarqube-7.8]: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/home/alumno/Escritorio/gpi2/sonarqube-7.8/temp --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*:/home/alumno/Escritorio/gpi2/sonarqube-7.8/lib/jdbc/h2/h2-1.3.176.jar org.sonar.server.app.WebServer /home/alumno/Escritorio/gpi2/sonarqube-7.8/temp/sq-process16318956962427343936properties
+2022.05.24 18:43:11 INFO  app[][o.s.a.SchedulerImpl] Process[web] is up
+2022.05.24 18:43:11 INFO  app[][o.s.a.ProcessLauncherImpl] Launch process[[key='ce', ipcIndex=3, logFilenamePrefix=ce]] from [/home/alumno/Escritorio/gpi2/sonarqube-7.8]: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/home/alumno/Escritorio/gpi2/sonarqube-7.8/temp --add-opens=java.base/java.util=ALL-UNNAMED -Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*:/home/alumno/Escritorio/gpi2/sonarqube-7.8/lib/jdbc/h2/h2-1.3.176.jar org.sonar.ce.app.CeServer /home/alumno/Escritorio/gpi2/sonarqube-7.8/temp/sq-process15277336186726099977properties
+2022.05.24 18:43:19 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is up
+2022.05.24 18:43:19 INFO  app[][o.s.a.SchedulerImpl] SonarQube is up
+INT trapped.  Shutting down.
+2022.05.24 19:15:01 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [ce]: 130
+2022.05.24 19:15:01 INFO  app[][o.s.a.SchedulerImpl] Process[ce] is stopped
+2022.05.24 19:15:02 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [es]: 130
+2022.05.24 19:15:02 INFO  app[][o.s.a.SchedulerImpl] Process[es] is stopped
+2022.05.24 19:15:02 WARN  app[][o.s.a.p.AbstractManagedProcess] Process exited with exit value [web]: 130
+2022.05.24 19:15:02 INFO  app[][o.s.a.SchedulerImpl] Process[web] is stopped
+2022.05.24 19:15:02 INFO  app[][o.s.a.SchedulerImpl] SonarQube is stopped
+<-- Wrapper Stopped

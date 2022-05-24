@@ -1,1 +1,1 @@
- 2webXhrapp/src/main/assets/index.html
+ 2webXhrapp/src/main/assets/index.html
