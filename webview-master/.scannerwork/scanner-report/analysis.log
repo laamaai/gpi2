@@ -16,16 +16,16 @@ Environment variables:
   - PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
   - PWD=/home/alumno/Escritorio/gpi2/webview-master
   - QT_ACCESSIBILITY=1
-  - SESSION_MANAGER=local/eim-alu-69068:@/tmp/.ICE-unix/731,unix/eim-alu-69068:/tmp/.ICE-unix/731
+  - SESSION_MANAGER=local/eim-alu-69068:@/tmp/.ICE-unix/723,unix/eim-alu-69068:/tmp/.ICE-unix/723
   - SHELL=/bin/bash
   - SHLVL=2
-  - SSH_AGENT_PID=789
-  - SSH_AUTH_SOCK=/tmp/ssh-XEl1j1fp5wUG/agent.731
+  - SSH_AGENT_PID=780
+  - SSH_AUTH_SOCK=/tmp/ssh-OtbEQ0RCLyIM/agent.723
   - TERM=xterm-256color
   - UID=1001
   - USER=alumno
   - VTE_VERSION=6003
-  - WINDOWID=69206019
+  - WINDOWID=48234499
   - XDG_CONFIG_DIRS=/etc/xdg
   - XDG_CURRENT_DESKTOP=XFCE
   - XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share
@@ -120,7 +120,7 @@ SonarQube plugins:
   - SonarVB 7.14.0.8411 (vbnet)
 Global server settings:
   - sonar.core.id=BF41A1F2-AYDdE0eCqYyc8vp6aqPW
-  - sonar.core.startTime=2022-05-24T18:42:54+0200
+  - sonar.core.startTime=2022-05-25T10:41:46+0200
 Project server settings:
 Project scanner properties:
   - sonar.host.url=http://localhost:9000
